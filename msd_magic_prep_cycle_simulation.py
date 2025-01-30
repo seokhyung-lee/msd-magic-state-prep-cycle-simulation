@@ -23,7 +23,7 @@ def simulate_msd(
     t_cult: int,
     post_selected_growing: bool = True,
     psucc_growing: Optional[float] = None,
-    num_stages: int = 10_000,
+    num_stages: int = 1000,
     seed: Optional[int] = None,
     verbose: bool = False,
     get_all: bool = False,
